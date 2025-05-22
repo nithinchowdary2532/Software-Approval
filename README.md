@@ -168,12 +168,6 @@ npm run dev
 
 ---
 
-## 🛡 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome!  
