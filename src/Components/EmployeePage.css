@@ -1,0 +1,114 @@
+.employee-page {
+  padding: 2rem;
+  background: #f9f9f9;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.employee-title {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.employee-error {
+  color: #ff4a6e;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.employee-software-table {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.employee-software-table th,
+.employee-software-table td {
+  padding: 0.8rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.employee-software-table th {
+  background: #6a11cb;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.employee-software-table tr:hover {
+  background: #f1f1f1;
+}
+
+.employee-software-table td {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.employee-software-table tr:last-child td {
+  border-bottom: none;
+}
+.send-request-button {
+  background: #6a11cb;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.send-request-button:hover {
+  background: #4a00e0;
+}
+
+.employee-success {
+  color: #28a745;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.send-request-button {
+  background: #6a11cb;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.send-request-button:hover {
+  background: #4a00e0;
+}
+
+.requested-button {
+  background: #ffc107;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: not-allowed;
+}
+
+.approved-button {
+  background: #28a745;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: not-allowed;
+}

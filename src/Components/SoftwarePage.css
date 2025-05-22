@@ -1,0 +1,140 @@
+.software-page {
+  padding: 2rem;
+  background: #f9f9f9;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.software-title {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.software-error {
+  color: #ff4a6e;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.software-table {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.software-table th,
+.software-table td {
+  padding: 0.8rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.software-table th {
+  background: #6a11cb;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.software-table tr:hover {
+  background: #f1f1f1;
+}
+
+.software-table td {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.software-table tr:last-child td {
+  border-bottom: none;
+}
+/* Buttons */
+.edit-button,
+.delete-button {
+  padding: 0.5rem 1rem;
+  margin: 0.2rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.edit-button {
+  background: #6a11cb;
+  color: #ffffff;
+}
+
+.edit-button:hover {
+  background: #4a00e0;
+}
+
+.delete-button {
+  background: #ff4a6e;
+  color: #ffffff;
+}
+
+.delete-button:hover {
+  background: #d90429;
+}
+
+/* Edit Form */
+.edit-form {
+  margin: 2rem auto;
+  max-width: 600px;
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.edit-form h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.edit-form input,
+.edit-form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.edit-form button {
+  padding: 0.8rem 1.5rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.save-button {
+  background: #6a11cb;
+  color: #ffffff;
+}
+
+.save-button:hover {
+  background: #4a00e0;
+}
+
+.cancel-button {
+  background: #ddd;
+  color: #333;
+}
+
+.cancel-button:hover {
+  background: #bbb;
+}
